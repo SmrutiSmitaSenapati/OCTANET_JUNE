@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>To-Do List
+            <div class="header_image">
+                <img src="assetsheader2.jpg" alt="header"/>
+            </div>
+        </h1>
+        <div class="input-group">
+            <input type="text" id="taskInput" placeholder="Add a new task...">
+            <select id="prioritySelect">
+                <option value="low">Low Priority</option>
+                <option value="high">High Priority</option>
+            </select>
+            <button id="addTaskButton">Add</button>
+        </div>
+        <ul id="taskList"></ul>
+    </div>
+    <div id="gifContainer" class="gif-container">
+        <img src="https://user-images.githubusercontent.com/5893005/80292620-e01b2000-8757-11ea-8d81-54d44d4f4d17.gif" alt="Success GIF">
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

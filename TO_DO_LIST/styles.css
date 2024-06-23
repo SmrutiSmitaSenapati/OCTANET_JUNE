@@ -1,0 +1,122 @@
+    body {
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    background-color: #f4f4f9;
+    background-image: url("11371.jpg");   
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #FAAFBA;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 1000px;
+    text-align: center;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Brush Script MT', cursive; 
+    margin-bottom: 20px;
+    color: #900C3F ;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_image img {
+    width: 40%;
+    max-width: 500px;
+    padding: 20px;
+    margin-inline: inherit;
+    display: inline-flexbox;
+
+}
+input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+select {
+    width: 25%; /* New select element */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    background: #f4f4f9;
+    margin: 10px 0;
+    padding: 10px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    word-wrap: break-word;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+li button {
+    background: none;
+    border: none;
+    color: #808000;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+li button:hover {
+    color: white;
+}
+
+li.high-priority {
+    background: #F88379; 
+}
+
+.gif-container {
+    display: none; 
+    position: fixed;
+    top: -30px;
+    right: 100px;
+    width: 95%;
+    z-index: 2000;
+}
